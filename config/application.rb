@@ -22,7 +22,7 @@ module Workspace
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
-    config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
     config.active_record.raise_in_transactional_callbacks = true
     
   end
