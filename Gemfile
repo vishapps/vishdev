@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'magnific-popup-rails'
+
 gem 'font-awesome-rails'
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
 gem 'less-rails'
 gem 'therubyracer'
 
@@ -53,9 +55,4 @@ end
 group :production do
   gem 'pg'
 end
-
-
-
-
-
 
