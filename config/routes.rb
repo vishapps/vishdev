@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'download/download_pdf'
+
   get 'pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
